@@ -9,12 +9,21 @@ h1 {
     color: orange;
     font-size: 36px;
     line-height: 1.5;
-    
+    border: solid green 5px;
+    display: inline;
 }
 
 .verde {
     color: green;
     font-size: 36px;
     line-height: 1.2;
-    font-weight: bold
+    font-weight: bold;
+    border: dashed orange 5px;
+    display: inline;
 }
+
+.verde:hover {
+    color: red;
+    border: solid blue 5px;
+}
+
